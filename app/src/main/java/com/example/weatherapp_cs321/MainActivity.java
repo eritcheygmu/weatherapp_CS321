@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void TestUpload(){
+
         int i = 1+2;
+        int ii = i + 2;
     }
 }
