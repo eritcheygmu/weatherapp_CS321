@@ -1,8 +1,6 @@
 package com.example.weatherapp_cs321;
 
 import android.content.Context;
-import android.graphics.ColorSpace;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,6 +38,7 @@ public class CustomPagerAdapter extends PagerAdapter {
         return view == object;
     }
 
+    //Not quite sure what this function do.
     @Override
     public CharSequence getPageTitle(int position){
         ModelObject customPagerEnum = ModelObject.values()[position];

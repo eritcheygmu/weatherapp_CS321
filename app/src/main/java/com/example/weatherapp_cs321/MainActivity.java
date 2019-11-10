@@ -14,5 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(new CustomPagerAdapter(this));
+
+        /*
+        SuggestionCalculation suggestCalc = new SuggestionCalculation();
+        //TODO dummy data:
+        suggestCalc.suggestion(65,15,15,6,"sunny");
+        //feed output to somehow restrict pages output to viewpager.
+         */
+
     }
 }
