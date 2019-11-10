@@ -21,7 +21,5 @@ public enum ModelObject {
         return mTitleResId;
     }
 
-    public int getmLayoutResId(){
-        return mLayoutResId;
-    }
+    public int getmLayoutResId() { return mLayoutResId; }
 }
